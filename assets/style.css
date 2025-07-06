@@ -1,6 +1,12 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00FB4F;
+}
+
 body {
     background: url('img/image copy.png')
-    font-family: Bai Jam
+    font-family Bai Jamjuree;
 }
 
 #container {
@@ -9,20 +15,22 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color:bisque
-    height 20rem;
+    height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
   
   .cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
    /* background-color: blueviolet; */
   }
 
 
 .cartao__conteudo h3 {
-    background-color:firebrick;
+
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -31,7 +39,18 @@ body {
     font-size: 1vw;
 }
 
+.cartao__conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+}
 
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+}
+
+.cartao__conteudo__resposta p {
+    color: var(--card-back-color)
+}
 
 
 
