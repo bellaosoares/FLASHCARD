@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(img/image.png)
+    background: url('img/image.png')
     font-family Bai Jamjuree;
 }
 
