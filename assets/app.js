@@ -5,12 +5,12 @@ function criaCartao (tema, pergunta, resposta) {
 
     cartao.innerHTML = `
     <div class="cartao__conteudo">
-    <h3>Geografia</h3>
+    <h3>${categoria}</h3>
     <div class="cartao__conteudo__pergunta">
-        <p>Qual e o menor e o maior pais do mundo?</p>
+        <p>${pergunta}</p>
     </div>
     <div class="cartao__conteudo__resposta">
-           <p>Vaticano e Russia.</p>
+           <p>${resposta}</p>
          </div>
     </div>
     `
